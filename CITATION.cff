@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper."
+title: "Intervention-Aware Track-and-Stop: Instance-Optimal Best-Policy Identification in Causal MDPs with a Known Graph"
+abstract: >-
+  Instance-optimal best-policy identification in causal MDPs with a known graph.
+  A known causal graph lets the learner drop reward-non-ancestor interventions
+  from the identification problem, shrinking the alternative set and the
+  Garivier-Kaufmann characteristic time, which yields an intrinsic, leading-order
+  separation from structure-blind reinforcement learning.
+type: software
+authors:
+  - name: "Anonymous"
+version: "0.1.0"
+license: MIT
+keywords:
+  - causal-inference
+  - reinforcement-learning
+  - best-arm-identification
+  - pure-exploration
+  - track-and-stop
+preferred-citation:
+  type: article
+  title: "Intervention-Aware Track-and-Stop: Instance-Optimal Best-Policy Identification in Causal MDPs with a Known Graph"
+  authors:
+    - name: "Anonymous"
+  year: 2026
+  notes: "Under review."

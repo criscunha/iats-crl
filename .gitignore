@@ -1,0 +1,78 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+.eggs/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Test / coverage / type / lint caches
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and secrets (never commit an .env)
+.env
+.env.*
+.envrc
+.venv
+# Root-anchored so these venv dir names don't also swallow other env/ dirs on a
+# case-insensitive filesystem (macOS).
+/env/
+/venv/
+/ENV/
+.python-version
+
+# Jupyter
+.ipynb_checkpoints
+
+# Experiment outputs are NOT tracked: reproduce them with `make reproduce`.
+*.log
+/results/
+/figures/
+
+# Paper sources / build (manuscript bundle + local compiles; regenerate with `make paper`).
+.paper/
+
+# Local AI / agent tooling and scaffolding (kept on disk, not version-controlled).
+.claude/
+.cursor/
+.spartan-packs
+.spartan/
+.planning/
+.memory/
+.handoff/
+AGENTS.md
+CLAUDE.md
+
+# IDEs / editors
+.idea/
+*.iml
+.vscode/
+*~
+.*.swo
+.*.swp
+
+# OS
+.DS_Store
+*.DS_Store
+.AppleDouble
+.LSOverride
+.Trashes
